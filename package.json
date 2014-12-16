@@ -1,0 +1,11 @@
+{
+  "name": "sport-store",
+  "description": "Test application for angularjs",
+  "repository": "https://github.com/cbernat/angularjs-app",
+  "devDependencies": {
+    "express": "~3.2.6"
+  },
+  "dependencies": {
+    "socket.io": "^1.2.1"
+  }
+}
