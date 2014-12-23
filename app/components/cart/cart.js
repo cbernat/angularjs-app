@@ -43,7 +43,7 @@ angular.module("cart", [])
 		
 			$scope.total = function () {
 				var total = 0;
-				for (var i = 0; i < cartData.length; i++) {
+				for (var i = 0; i < cartData.length; i++) 
 					total += (cartData[i].price * cartData[i].count);
 				
 				return total;

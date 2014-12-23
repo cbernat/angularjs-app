@@ -9,7 +9,7 @@
 	<div class="col-xs-8">
 		<div class="well" ng-repeat="item in data.products | filter:categoryFilterFn | range:selectedPage:pageSize">
 			<h3>
-				<strong>{{item.name}}</strong>
+				<strong>{{item.Name}}</strong>
 				<span class="pull-right label label-primary">
 					{{item.price | currency}}
 				</span>
